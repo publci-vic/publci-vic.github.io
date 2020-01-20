@@ -1,1 +1,574 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>VBlog</title><link href=/static/css/app.1077e829fd342432c1b756f43e0c6040.css rel=stylesheet></head><body style="margin: 0px"><div id=app></div><script type=text/javascript src=/static/js/manifest.2ae2e69a05c33dfc65f8.js></script><script type=text/javascript src=/static/js/vendor.d5ced11d648e0dba51c8.js></script><script type=text/javascript src=/static/js/app.5ffe06ff6f8b21ce8002.js></script></body></html>
+
+<!DOCTYPE html>
+<!--http://demo.cssmoban.com/cssthemes3/cpts_535_wa/index.html-->
+<html>
+<head>
+<title>暹罗之恋旅游</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Walkabout Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery.min.js"></script>
+<!--start-smoth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!--start-smoth-scrolling-->
+<!--pop-up-box-->
+<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>  
+<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+	<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+	 <script>
+			$(document).ready(function() {
+			$('.popup-with-zoom-anim').magnificPopup({
+				type: 'inline',
+				fixedContentPos: false,
+				fixedBgPos: true,
+				overflowY: 'auto',
+				closeBtnInside: true,
+				preloader: false,
+				midClick: true,
+				removalDelay: 300,
+				mainClass: 'my-mfp-zoom-in'
+			});																
+			});
+	</script>	
+	<!--pop-up-box-->
+<!--script-->
+<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+		    <script type="text/javascript">
+			    $(document).ready(function () {
+			        $('#horizontalTab').easyResponsiveTabs({
+			            type: 'default', //Types: default, vertical, accordion           
+			            width: 'auto', //auto or any width like 600px
+			            fit: true   // 100% fit in a container
+			        });
+			    });
+				
+</script>	
+<!--script-->
+
+</head>
+<body>
+	<!--header-starts-->
+	<div class="header" id="home">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><h1>暹罗之恋旅游</h1></a>
+			</div>
+			<div class="navigation">
+			 <span class="menu"></span> 
+				<ul class="navig">
+					<li><a href="index.html">首页</a><span> </span></li>
+					<li><a href="#gallery" class="scroll">服务</a><span> </span></li>
+					<li><a href="#gallery" class="scroll">产品</a><span> </span></li>
+					<li><a href="#cuxiao" class="scroll">促销</a><span> </span></li>
+					<li><a href="#promotions" class="scroll">图库</a><span> </span></li>
+					<li><a href="#contact" class="scroll">关于我们</a><span> </span></li>
+				</ul>
+			</div>
+				 <!-- script-for-menu -->
+		 <script>
+				$("span.menu").click(function(){
+					$(" ul.navig").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+		 <!-- script-for-menu -->
+		</div>
+	</div>
+	<!--header-end-->
+	<!--banner-starts-->
+	<div class="banner">
+		<div class="container">
+			<div class="banner-top">
+				<h2>专享之旅，只需轻松四步:</h2>
+				<div style="">
+					<p>1 告知出行基本信息及特殊需求；</p>
+					<!--<p style="color: #00a4e4;margin-left: 155px;text-align: left;margin-top: 50px;font-size: 30px;line-height: 20px;font-family: 'Simplified Arabic'">2 行程顾问提出出行建议；</p>-->
+					<p >2 行程顾问提出出行建议；</p>
+					<p >3 协商确定最终价格；</p>
+					<p >4 个性之旅，愉快出行；</p>
+				<!--<p></p>-->
+				<!--<p>3 协商确定最终价格；4 个性之旅，愉快出行</p>-->
+				<!--<p></p>-->
+					</div>
+			</div>
+		</div>
+	</div>
+	<!--banner-end-->
+
+	<!--bnr-starts-->
+	<div class="bnr">
+		<!--<div class="col-md-2 bnr-left">-->
+			<!--<h3>我们有保障</h3>-->
+		<!--</div>-->
+		<div class="col-md-4 bnr-left">
+			<h4>100%中文客服，交流无障碍</h4>
+			<!--<p>Nullam condimentum nisi sit amet dui finibus, id consectetur nunc tempus.</p>-->
+		</div>
+		<div class="col-md-4 bnr-left">
+			<h4>100%旅游局正规登记，信誉有保证</h4>
+			<!--<p>Nullam condimentum nisi sit amet dui finibus, id consectetur nunc tempus.</p>-->
+		</div>
+		<div class="col-md-4 bnr-left">
+			<h4>100%旅游保险人手一份，安全有保障</h4>
+			<!--<p>100%旅游保险人手一份，安全有保障。</p>-->
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<!--bnr-end-->
+	<!--welcome-starts-->
+	<div class="welcome" id="about">
+		<div class="container">
+			<div class="welcome-top heading">
+				<h3>暹罗之恋旅游公司欢迎您</h3>
+				<p>用自由的脚步丈量世界的宽度，用行走的姿态感受生命的态度</p>
+				<p>暹罗之恋旅游公司是您泰国之旅的最佳选择</p>
+			</div>
+			<div class="welcome-bottom">
+				<div class="col-md-6 welcome-left">
+					<div class="col-md-6 w-left">
+						<img src="images/w1.jpg" alt=""/>							
+					</div>
+					<div class="col-md-6 w-left">
+						<img src="images/w2.jpg" alt="" />
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="col-md-6 welcome-right">
+					<h4 style="margin-top: 24px">私人订制，魅力无限</h4>
+					<p>华丽辉煌的寺庙、浓厚的宗教风情、水清沙白的海滩还有充满异国风情的历史文化——让个性高端旅游触手可及。.</p>
+					<h4 style="margin-top: 44px">贴心服务，安全保障</h4>
+					<p>用情至真的态度服务广大客户，让您畅想泰国个性风范；</p>
+					<p>贴近客户的实际需求，国际领先的保险公司，为您的旅行保驾护航；</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--welcome-end-->
+	<!--why-starts-->
+	<div class="why" id="cuxiao">
+		<div class="container">
+			<div class="why-top heading">
+				<h3>热门促销</h3>
+			</div>
+			<div class="why-bottom">
+				<div class="col-md-4 why-left">
+					<div class="why-one">
+						<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+						<h4>Sed ornare euismod</h4>
+						<p>Curabitur pretium metus feugiat elit condimentum lacinia. Etiam et quam dignissim, euismod sem eu, laoreet mauris.</p>
+					</div>
+				</div>
+				<div class="col-md-4 why-left">
+					<div class="why-one">
+						<span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span>
+						<h4>Sed ornare euismod</h4>
+						<p>Curabitur pretium metus feugiat elit condimentum lacinia. Etiam et quam dignissim, euismod sem eu, laoreet mauris.</p>
+					</div>
+				</div>
+				<div class="col-md-4 why-left">
+					<div class="why-one">
+						<span class="glyphicon glyphicon-piggy-bank" aria-hidden="true"></span>
+						<h4>Sed ornare euismod</h4>
+						<p>Curabitur pretium metus feugiat elit condimentum lacinia. Etiam et quam dignissim, euismod sem eu, laoreet mauris.</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--why-end-->
+    <!--<div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>-->
+
+
+	<!--gallery-starts-->
+	<div class="gallery" id="gallery" style="margin-top: 80px;margin-bottom: 280px">
+		<div class="gallery-top heading">
+			<h3>服务项目</h3>
+			<p>暹罗之恋旅游公司是一家集旅游订制服务、旅拍跟拍服务、法律咨询服务等多项服务为一体的综合性公司，满足您在泰国的出行、签证、居住等一切需求。</p>
+		</div>
+		<div class="gallery-bottom">
+		<div class="sap_tabs">
+			<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+				<ul class="resp-tabs-list">
+					<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>旅游服务</span></li>
+					<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>法律服务</span></li>
+					<div class="clearfix"></div>
+				</ul>
+				<div class="resp-tabs-container">
+					<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+						<div class="col-lg-2"></div>
+						<div class="col-md-2 top-left wow bounceIn animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
+					<a href="#">
+						<img class="img-responsive" src="images/t1.jpg" alt="">
+						<div class="captn">
+							<h4>景点门票</h4>
+							<p>提供泰国全境景点门票预定服务，让您享受轻轻松松的旅程。</p>
+						</div>
+					</a>
+				</div>
+						<div class="col-md-2 top-left wow bounceIn animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
+							<a href="#">
+								<img class="img-responsive" src="images/t2.jpg" alt="">
+								<div class="captn">
+									<h4>酒店住宿</h4>
+									<p>泰国全境酒店放心找，为您出行提供最便捷的服务。</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-2 top-left wow bounceIn animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
+							<a href="#">
+								<img class="img-responsive" src="images/t3.jpg" alt="">
+								<div class="captn">
+									<h4>旅拍写真</h4>
+									<p>全程跟拍摄影服务，帮您记录旅途美好瞬间。</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-2 top-left wow bounceIn animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
+					<a href="#">
+						<img class="img-responsive" src="images/t4.jpg" alt="">
+						<div class="captn">
+							<h4>租车包车</h4>
+							<p>机场接送，私人专车，让您无忧无虑自由行。</p>
+						</div>
+					</a>
+				</div>
+						<div class="col-lg-2"></div>
+					</div>
+					<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+						<div class="col-lg-2"></div>
+						<div class="col-md-2 top-left wow bounceIn animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
+					<a href="#">
+						<img class="img-responsive" src="images/t5.jpg" alt="">
+						<div class="captn">
+							<h4>法律顾问</h4>
+							<p>多名泰国本土具有从业资格的资深律师为您提供最专业的法律帮助。</p>
+						</div>
+					</a>
+				</div>
+						<div class="col-md-2 top-left wow bounceIn animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
+							<a href="#">
+								<img class="img-responsive" src="images/t6.jpg" alt="">
+								<div class="captn">
+									<h4>签证咨询</h4>
+									<p>专业签证咨询代办服务，为你提供最完美的签证解决方案。</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-2 top-left wow bounceIn animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
+							<a href="#">
+								<img class="img-responsive" src="images/t7.jpg" alt="">
+								<div class="captn">
+									<h4>会计事物</h4>
+									<p>拥有经验丰富的专业财务人员，帮助您合法的在泰国从事商业活动。</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-2 top-left wow bounceIn animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
+					<a href="#">
+						<img class="img-responsive" src="images/t8.jpg" alt="">
+						<div class="captn">
+							<h4>专业翻译</h4>
+							<p>卓越的译文品质和快速的译文交付，我们为您提供一流专业的服务。</p>
+						</div>
+					</a>
+				</div>
+						<div class="col-lg-2"></div>
+                </div>
+			</div>
+		</div>
+        </div>
+	</div>
+	</div>
+	<!--gallery-end-->
+
+	<!--top-starts-->
+	<div class="top" id="promotions">
+		<div class="container">
+			<div class="top-top heading">
+				<h3>图库</h3>
+			</div>
+			<div class="top-bottom">
+				<div class="tab_img grid">
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/g1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">
+										<img src="images/g1.jpg" alt="" />
+										<figcaption>
+										</figcaption>
+									</figure>
+								</a>
+							</div>
+							<div class="col-md-3 img-top ">
+								<a href="images/g2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">
+										<img src="images/g2.jpg" alt="" />
+										<figcaption>
+										</figcaption>
+									</figure>
+								</a>
+							</div>
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/g3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">
+										<img src="images/g3.jpg" alt="" />
+										<figcaption>
+										</figcaption>
+									</figure>
+								</a>
+							</div>
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/g4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">
+										<img src="images/g4.jpg" alt="" />
+										<figcaption>
+										</figcaption>
+									</figure>
+								</a>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="tab_img grid">
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/g5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">
+										<img src="images/g5.jpg" alt="" />
+										<figcaption>
+										</figcaption>
+									</figure>
+								</a>
+							</div>
+							<div class="col-md-3 img-top ">
+								<a href="images/g6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">
+										<img src="images/g6.jpg" alt="" />
+										<figcaption>
+										</figcaption>
+									</figure>
+								</a>
+							</div>
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/g7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">
+										<img src="images/g7.jpg" alt="" />
+										<figcaption>
+										</figcaption>
+									</figure>
+								</a>
+							</div>
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/g8.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">
+										<img src="images/g8.jpg" alt="" />
+										<figcaption>
+										</figcaption>
+									</figure>
+								</a>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+
+				<div class="clearfix"> </div>
+			</div>
+        </div>
+	</div>
+	<!--top-end-->
+
+	<!--services-starts-->
+	<div class="services" id="contact">
+		<div class="container">
+			<div class="services-top heading">
+				<h3>关于我们</h3>
+			</div>
+			<div class="services-bottom">
+				<div class="col-md-3 services-left">
+					<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+					<!--<h4>Morbi in commodo</h4>-->
+					<p>暹罗之恋旅游公司是泰国国家商业厅合法注册的一家经营入境泰国旅游的专业地接社，可代理泰国全境景点门票、酒店、机票及包车等各类服务。</p>
+				</div>
+				<div class="col-md-6 services-middle">
+					<img src="images/s1.jpg" alt="" />
+				</div>
+				<div class="col-md-3 services-left">
+					<span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+					<!--<h4>Morbi in commodo</h4>-->
+					<p>本公司以个性高端、贴心安全的准则承接各类团队游及个人游，拥有精通中英泰三国语言的专业导游全程为您服务</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--services-end-->
+
+	<script src="js/jquery.chocolat.js"></script>
+	<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+		<!--light-box-files -->
+	<script type="text/javascript" charset="utf-8">
+		$(function() {
+			$('.img-top a').Chocolat();
+		});
+		</script>
+
+	<!--address-starts-->
+	<div class="address">
+		<div class="container">
+			<div class="address-top">
+				<div class="col-md-4 adrs-left">
+					<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+					<p><label>暹罗之恋旅游公司</label>
+						<p>泰国芭堤雅市帕答纳克山四巷</p></p>
+				</div>
+				<div class="col-md-4 adrs-left">
+					<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+					<p>+66 33-082028 </p>
+					<div>+66 92 952 8883</div>
+				</div>
+				<div class="col-md-4 adrs-left">
+					<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+					<p><a href="mailto:example@email.com">52travel@52siam.com</a></p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--address-end-->
+	<!--map-starts-->
+	<!--<div class="map" id="contact">-->
+		<!--<div class="contact">-->
+			<!--<div class="contact-top">-->
+				<!--<h3>Contact Us</h3>-->
+			<!--</div>-->
+			<!--<div class="contact-bottom">-->
+				<!--<form>-->
+					<!--<input type="text" value="Name" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Name';}" required />				-->
+					<!--<input type="text" value="Email" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Email';}" />-->
+					<!--<textarea value="Message" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Message';}">Message</textarea>-->
+					<!--<div class="submit-btn">-->
+						<!--<input type="submit" value="SUBMIT">-->
+					<!--</div>-->
+				<!--</form>-->
+			<!--</div>-->
+		<!--</div>-->
+	<!--</div>-->
+	<!--map-end-->
+	<!--footer-starts-->
+	<!--<div class="footer">-->
+		<!--<div class="container">-->
+			<!--<div class="footer-main">-->
+				<!--<div class="col-md-4 footer-left">-->
+					<!--<h3>Overview</h3>-->
+					<!--<ul>-->
+						<!--<li><a href="#">Duis ullamcorper elit justo</a></li>-->
+						<!--<li><a href="#">Fusce tincidunt laoreet maximus</a></li>-->
+						<!--<li><a href="#">Aliquam auctor tristique pharetra</a></li>-->
+						<!--<li><a href="#">Duis ullamcorper elit justo</a></li>-->
+						<!--<li><a href="#">Pellentesque semper velit faucibus</a></li>-->
+						<!--<li><a href="#">Maecenas dapibus feugiat nisi ut</a></li>-->
+					<!--</ul>-->
+				<!--</div>-->
+				<!--<div class="col-md-4 footer-left">-->
+					<!--<h3>Recent Posts</h3>-->
+					<!--<div class="ftr">-->
+						<!--<div class="ftr-1">-->
+							<!--<div class="f-left">-->
+								<!--<a href="#"><img src="images/f1.jpg" alt="" /></a>-->
+							<!--</div>-->
+							<!--<div class="f-right">-->
+								<!--<a href="#"><h4>Nullam feugiat blandit</h4></a>-->
+								<!--<p>Maecenas eu egestas massa. Etiam tincidunt tincidunt ipsum.</p>-->
+							<!--</div>-->
+							<!--<div class="clearfix"></div>-->
+						<!--</div>-->
+						<!--<div class="ftr-2">-->
+							<!--<div class="f-left">-->
+								<!--<a href="#"><img src="images/f2.jpg" alt="" /></a>-->
+							<!--</div>-->
+							<!--<div class="f-right">-->
+								<!--<a href="#"><h4>Nullam feugiat blandit</h4></a>-->
+								<!--<p>Maecenas eu egestas massa. Etiam tincidunt tincidunt ipsum.</p>-->
+							<!--</div>-->
+							<!--<div class="clearfix"></div>-->
+						<!--</div>-->
+					<!--</div>-->
+				<!--</div>-->
+				<!--<div class="col-md-4 footer-left">-->
+					<!--<h3>Photos from Flickr</h3>-->
+					<!--<div class="flickr">-->
+						<!--<div class="f-one">-->
+							<!--<div class="f-left">-->
+								<!--<a href="#"><img src="images/f-1.jpg" alt="" /></a>-->
+							<!--</div>-->
+							<!--<div class="f-left">-->
+								<!--<a href="#"><img src="images/f-2.jpg" alt="" /></a>-->
+							<!--</div>-->
+							<!--<div class="f-left">-->
+								<!--<a href="#"><img src="images/f-3.jpg" alt="" /></a>-->
+							<!--</div>-->
+							<!--<div class="f-left">-->
+								<!--<a href="#"><img src="images/f-4.jpg" alt="" /></a>-->
+							<!--</div>-->
+							<!--<div class="clearfix"></div>-->
+						<!--</div>-->
+						<!--<div class="f-one">-->
+							<!--<div class="f-left">-->
+								<!--<a href="#"><img src="images/f-5.jpg" alt="" /></a>-->
+							<!--</div>-->
+							<!--<div class="f-left">-->
+								<!--<a href="#"><img src="images/f-6.jpg" alt="" /></a>-->
+							<!--</div>-->
+							<!--<div class="f-left">-->
+								<!--<a href="#"><img src="images/f-7.jpg" alt="" /></a>-->
+							<!--</div>-->
+							<!--<div class="f-left">-->
+								<!--<a href="#"><img src="images/f-8.jpg" alt="" /></a>-->
+							<!--</div>-->
+							<!--<div class="clearfix"></div>-->
+						<!--</div>-->
+					<!--</div>-->
+				<!--</div>-->
+				<!--<div class="clearfix"></div>-->
+			<!--</div>-->
+		<!--</div>-->
+	<!--</div>-->
+	<!--footer-end-->
+	<!--footer-bottom-starts-->
+	<div class="f-bottom">
+		<div class="container">
+			<div class="footer-text">
+				<p>Copyright &copy;  Travel Co.,Ltd All rights reserved.More </p>
+			</div>
+		</div>
+		<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+	<!--footer-bottom-end-->
+</body>
+</html>
